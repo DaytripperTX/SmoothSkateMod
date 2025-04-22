@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SmoothSkate</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="SmoothSkateMod.csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MelonLoader">
+      <HintPath>E:/SteamLibrary/steamapps/common/Schedule I/MelonLoader/net35/MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>E:/SteamLibrary/steamapps/common/Schedule I/Schedule I_Data/Managed/Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:/SteamLibrary/steamapps/common/Schedule I/Schedule I_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>E:/SteamLibrary/steamapps/common/Schedule I/MelonLoader/net35/0Harmony.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties smoothskatemod_1csproj_1user__JsonSchema="xml" /></VisualStudio></ProjectExtensions>
+</Project>
