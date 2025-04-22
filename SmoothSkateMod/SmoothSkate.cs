@@ -2,8 +2,8 @@
 using HarmonyLib;
 using UnityEngine;
 
-[assembly: MelonInfo(typeof(SmoothSkateMod.SmoothSkate), "SmoothSkate", "1.0.0", "volcomtx")]
-[assembly: MelonGame("TVGS", "Schedule One")]
+[assembly: MelonInfo(typeof(SmoothSkateMod.SmoothSkate), "SmoothSkate", "0.1.0", "volcomtx")]
+[assembly: MelonGame("TVGS", "Schedule I")]
 
 namespace SmoothSkateMod
 {

@@ -22,6 +22,4 @@
       <HintPath>E:/SteamLibrary/steamapps/common/Schedule I/MelonLoader/net35/0Harmony.dll</HintPath>
     </Reference>
   </ItemGroup>
-
-  <ProjectExtensions><VisualStudio><UserProperties smoothskatemod_1csproj_1user__JsonSchema="xml" /></VisualStudio></ProjectExtensions>
 </Project>
