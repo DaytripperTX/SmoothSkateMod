@@ -15,4 +15,14 @@ namespace SmoothSkateMod
             MelonLogger.Msg("SmoothSkate loaded. Ride smooth!");
         }
     }
+
+    [HarmonyPatch(typeof(ScheduleOne.Skating.Skateboard), "GetSurfaceSmoothness")]
+    public static class Skateboard_GetSurfaceSmoothness_Patch
+    {
+        static bool Prefix(ref float __result)
+        {
+            __result = 1f;
+            return false; // Skip original method
+        }
+    }
 }
